@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bg1 {
+    background: #FFD1DC;
+}
+
+.bg2 {
+    background: #E6E6FA;
+}
+
+.bg3 {
+    background: #ACE5EE;
+}
+
+.photo {
+    width: 250px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 85px;
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 5px;
+}
+
+.info-text {
+    margin-left: 30px;
+
+    
+}
+
+
+a {
+    color: #86898f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+
+a:visited {
+    color: #ACE5EE;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    color: white;
+    background: #0f141e;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    display: block;
+    
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: calc(50%-20px); */
+    width: 50%;
+
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+
+}
+
+
+.form-group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width:650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:650px) {
+    .form-row {
+        display: block;
+        text-align: center;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
